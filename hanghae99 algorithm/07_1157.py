@@ -17,7 +17,7 @@ else:
 
 
 
-  words = input().upper()
+words = input().upper()
 overlap_words = list(set(words))
 
 cnt_list = []
