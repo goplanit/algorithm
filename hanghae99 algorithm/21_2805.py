@@ -9,7 +9,6 @@ h = 0
 start = 0
 end = max(tree)
 
-# 이분탐색 시작!!
 # start가 더 커지면 (이분 탐색이 끝나면) 반복문을 종료한다.
 while start<=end:
     # 자른 나무의 총 길이
