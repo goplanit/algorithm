@@ -19,8 +19,6 @@ for i in range(num):
   else:
     print("NO")
     
-    
-    
 # * 괄호 문자열(Parenthesis String, PS) -> 두개의 괄호 기호"(" 와 ")" 만으로 구성되어 있는 문자열
 # * 괄호의 모양이 바르게 구성된 문자열을 올바른 괄호 문자열(Valid PS, VPS)이라고 부른다.
 # * 한 쌍의 괄호 기호로 된 "()" 문자열 -> 기본 VPS

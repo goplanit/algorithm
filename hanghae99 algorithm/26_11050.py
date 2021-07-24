@@ -11,11 +11,3 @@ answer = math.factorial(n) // (math.factorial(k) * math.factorial(n-k))
 print(answer)
 
 
-
-## 재귀함수를 이용한 문제 풀이 / 런타임에러뜸
-# import sys
-# def make_fac(num):
-#     return num * make_fac(num-1) if num != 1 else 1
-# n,k = map(int, sys.stdin.readline().split())
-# answer = make_fac(n) // (make_fac(k)*make_fac(n-k))
-# print(answer)
