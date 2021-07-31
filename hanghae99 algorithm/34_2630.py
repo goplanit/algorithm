@@ -2,7 +2,6 @@ import sys
 input = sys.stdin.readline
 N = int(input())
 paper = [list(map(int, input().split())) for _ in range(N)]
-# [[1, 1, 0, 0, 0, 0, 1, 1], [1, 1, 0, 0, 0, 0, 1, 1], [0, 0, 0, 0, 1, 1, 0, 0], [0, 0, 0, 0, 1, 1, 0, 0], [1, 0, 0, 0, 1, 1, 1, 1], [0, 1, 0, 0, 1, 1, 1, 1], [0, 0, 1, 1, 1, 1, 1, 1], [0, 0, 1, 1, 1, 1, 1, 1]]
 result = []     # 0이나 1만 가지고 있는 색종이 생기면 추가
 
 def solution(x, y, N):
