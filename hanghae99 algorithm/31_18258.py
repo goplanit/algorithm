@@ -14,7 +14,7 @@ for _ in range(n):
 
     if command[0] == 'push':
         que.append(command[-1])     # print(que) -> deque(['1'])
-    elif command[0] == 'pop':   # 큐는 선입선출이므로 popleft() 메소드사용
+    elif command[0] == 'pop':   
         if not que:
             print(-1)
         else:
